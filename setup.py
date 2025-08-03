@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'imu_logger_node = pixhawk_controller.imu_logger_node:main',
         ],
     },
 )
